@@ -48,6 +48,8 @@ public class ANSI {
       print(self)
     }
   
+}
+
   public enum System: CustomStringConvertible {
     
     case clearScreen
@@ -65,9 +67,7 @@ public class ANSI {
     }
     
   }
-  
-  
-  
+    
   
 }
 
